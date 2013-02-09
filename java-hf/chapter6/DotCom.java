@@ -7,7 +7,7 @@ class DotCom{
     locationCells = location;
   }
   public void setName(String name){
-    name = n;
+    this.name = name;
   }
 
 

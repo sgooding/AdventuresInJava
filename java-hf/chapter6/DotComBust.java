@@ -21,6 +21,7 @@ class DotComBust{
   public void startPlaying(){
     while(!dotComList.isEmpty())
     {
+      String ans = gameHelper.getUserInput("Guess: \n");
     }
   }
 
