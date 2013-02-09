@@ -1,7 +1,12 @@
 *.class
-
+*.classpath
+*.project
+.settings
+doc
+*.ser
 # Package Files #
 *.jar
 *.war
 *.ear
 *.swp
+
