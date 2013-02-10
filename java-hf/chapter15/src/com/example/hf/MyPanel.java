@@ -10,6 +10,9 @@ public class MyPanel extends JPanel {
 	 */
 	private static final long serialVersionUID = 1L;
 
+	/**
+	 * Just a check
+	 */
 	public void paintComponent(Graphics g)
 	{
 		g.setColor(Color.orange);
