@@ -2,9 +2,9 @@ class PrimitiveTypes{
 
 
   public static void main(String[] args){
-    boolean test = true;
-    int number = 3;
-    float decimal = 3.0f;
+    //boolean test = true;
+    //int number = 3;
+    //float decimal = 3.0f;
     Dog myDog = new Dog();
     myDog.val = 3;
     myDog.bark();
