@@ -11,7 +11,7 @@ public class MyPanel extends JPanel {
 	private static final long serialVersionUID = 1L;
 
 	/**
-	 * Just a check
+	 * Just a check, painting.
 	 */
 	public void paintComponent(Graphics g)
 	{
