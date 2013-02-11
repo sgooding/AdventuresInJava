@@ -50,7 +50,21 @@ public class Scratch {
 	 * Starts the application.
 	 */
 	private void go(){
+		
 		frame =  new JFrame();
+		frame.setLayout( new GridLayout(2,0));
+		frame.setSize(300,300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		
+		buildMenu();
+		buildButton();
+		
+		frame.setVisible(true);	
+	}
+	
+	private void buildButton() {
+		// TODO Auto-generated method stub
 		button = new JButton("Hello World");
 		button.addActionListener(new ActionListener(){
 
@@ -62,10 +76,10 @@ public class Scratch {
 			
 		});
 		frame.add(button);
-		frame.setLayout( new GridLayout(2,0));
-		frame.setVisible(true);
-		frame.setSize(300,300);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+
+	private void buildMenu() {
+		// TODO Auto-generated method stub
 		JMenuBar menubar = new JMenuBar();
 		JMenu menu = new JMenu("File");
 		JMenuItem new_item = new JMenuItem("New");
@@ -116,7 +130,7 @@ public class Scratch {
 		frame.setJMenuBar(menubar);
 		
 	}
-	
+
 	private void addButtons()
 	{
 		switch(nItems){
